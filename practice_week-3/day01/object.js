@@ -1,6 +1,9 @@
 //Objects in Javascript
 
+//Object is like a containers that hold data and functionality, similar to real-world objects like cars, houses, or may be a record about anything.
+
 //Creating Objects in Javascript
+
 //Ex-1
 let person = {
     first_name:'Virat',
@@ -18,7 +21,7 @@ let student_record = {
 console.log(person.first_name);
 console.log(student_record.stud_course);
 
-//2. Array[] notation
+//2. Array bracket[] notation
 console.log(person['last_name']);
 
 //Different ways used in object modification
@@ -56,7 +59,7 @@ person.sayHello=function(){
 }
 person.sayHello();
 
-//2.Normal function to object function
+//2.Normal function equating to object function
 function greet(){
     console.log('Welcome!');
 }
@@ -72,4 +75,3 @@ let fruit={
     }
 };
 fruit.sayfruit();
-
