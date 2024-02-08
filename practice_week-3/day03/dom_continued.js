@@ -15,7 +15,7 @@ for(let i=0;i<elm1.length; i++){
 console.log(elm1);
 
 //Query selector:
-//Query selector is the most useful way to edit any html text using querySelector(select only one p tag with intro as class) and querySelectorAll(selects all p tags with intro as class but as it forms collecon then loop is used.)
+//Query selector is the most useful way to edit any html text using querySelector(select only one p tag with intro as class) and querySelectorAll(selects all p tags with intro as class but as it forms collection then loop is used.)
 
 let que= document.querySelector("p.intro");
 que.innerHTML="this is js";
@@ -31,14 +31,15 @@ console.log(prt);
 
 //Selecting 1st child element of the parent tag
 let chd=document.getElementById("parent");
-let node=chd.lastElementChild; //similarly first child is selected by .firstElementChild
+let node=chd.lastElementChild; 
+//similarly first child is selected by .firstElementChild
 //to select all child use .children
 console.log(node);
 
 //Selecting different siblings using id in one tag 
 /*
-1. Previous sibling- use .previousElementSibling
-2. Next sibling- use .nextElementSibling
+1. Previous sibling: use .previousElementSibling
+2. Next sibling: use .nextElementSibling
 */
 
 //Using innerHTML
