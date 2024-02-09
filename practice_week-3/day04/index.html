@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- onclick event -->
+    <h1 onclick="this.innerHTML =`Let's Learn it!`">Javascript (click on it)</h1>
+    <h2 onclick="changeText(this)">Click on this text</h2> 
+    <p>Click on this button to display the date.</p>
+    <button id="demo" onclick="displayDate()">The current time: </button>
+    
+    <!-- oninput attributes -->
+    <h2>The oninput Attribute</h2>
+    Enter your name: <input type="text" id="name" oninput="upperCase()">
+    <p>On entering any text the text is itself converted into uppercase.</p>
+
+    <!-- onchange attribute -->
+    <h2>The onchange Attribute</h2>
+    Enter your name: <input type="text" id="fname" onchange="upperCase()">
+    <p>When you leave the input field, the input changes to upper case.</p>
+
+    <!-- onmouseover and onmouseout event -->
+    <h2>The onmouseover Attribute</h2>
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+    style="background-color:#9ec24b; width:120px; height:20px; padding:40px;">
+    Move the mouse over me</div>
+
+    <!-- Event listner -->
+    <p>This example uses the addEventListener() method to attach a click event to a button.</p>
+    <button id="myBtn">Try it</button>
+
+    <script src="day04.js"></script>
+    
+</body>
+</html>
